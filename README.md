@@ -1,5 +1,5 @@
 # Tacker Pro
-### Task Management application, made with technologies:
+### Task Management application, created with technologies:
 - ReactJS
 - Redux
 - Tailwind
