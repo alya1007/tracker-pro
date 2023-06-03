@@ -6,6 +6,7 @@ import {
 	leftPanelCategoriesData,
 	leftPanelGeneralData,
 } from "../data/leftPanelData";
+import { RiSunFill, RiMoonClearFill } from "react-icons/ri";
 
 const LeftPanel = ({ className }) => {
 	return (
@@ -25,6 +26,13 @@ const LeftPanel = ({ className }) => {
 					linksData={leftPanelCategoriesData}
 				/>
 				<LeftPanelSection title="General" linksData={leftPanelGeneralData} />
+				<div className="flex items-center py-1">
+					<RiSunFill />
+					<button className=" border-solid border-2 border-primary w-fit rounded-2xl">
+						switch
+					</button>
+					<RiMoonClearFill />
+				</div>
 			</section>
 		</div>
 	);
