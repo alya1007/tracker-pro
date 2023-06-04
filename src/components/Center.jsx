@@ -12,6 +12,15 @@ const Center = () => {
 			dateStart={"21 Jan "}
 			dateFinish={" 24 Jan 2023"}
 		/>,
+		<TaskListCard
+			key="1"
+			title="UI Prototyping"
+			description={"UI Prototype"}
+			typeFirst={"Prototyping"}
+			typeSecond={"Interactions"}
+			dateStart={"21 Jan "}
+			dateFinish={" 24 Jan 2023"}
+		/>,
 	];
 	return (
 		<div className="left-0 right-0 md:px-8 md:py-6 flex space-x-4">

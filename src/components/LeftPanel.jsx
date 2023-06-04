@@ -28,8 +28,8 @@ const LeftPanel = ({ className }) => {
 				<LeftPanelSection title="General" linksData={leftPanelGeneralData} />
 				<div className="flex items-center py-1">
 					<RiSunFill />
-					<button className=" border-solid border-2 border-primary w-fit rounded-2xl">
-						switch
+					<button className=" border-solid border-2 border-primary rounded-2xl w-12 h-6 mx-1">
+						<div className="ml-1 w-4 h-4 rounded-full bg-primary"></div>
 					</button>
 					<RiMoonClearFill />
 				</div>

@@ -8,7 +8,7 @@ const Header = () => {
 				<h1 className=" flex-start mr-auto md:text-xl">
 					Tracker Pro Workspace
 				</h1>
-				<div className="flex-end mr-2 mb-0.3">icons</div>
+				<div className="flex-end mr-2 mb-0.3"></div>
 				<button className="flex-end button-transparent">
 					<span>
 						{" "}
